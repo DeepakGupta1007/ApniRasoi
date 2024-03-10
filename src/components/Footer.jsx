@@ -23,7 +23,7 @@ const Footer = () => {
             </section>
             <div className="main-footer">
               <div className="foot1">
-                <h6>ABOUT Zaika</h6>
+                <h6>ABOUT ApniRasoi</h6>
                 <nav>
                   <a href="#"><p>Who We Are</p></a>
                   <a href="#"><p>Blog</p></a>
@@ -34,13 +34,13 @@ const Footer = () => {
                 </nav>
               </div>
               <div className="foot2">
-                <h6>ZAIKAVERSE</h6>
+                <h6>ApniRasoiVERSE</h6>
                 <nav>
-                  <a href="#"><p>Zaika</p></a>
+                  <a href="#"><p>ApniRasoi</p></a>
                   <a href="#"><p>Ziakit</p></a>
                   <a href="#"><p>Feeding India</p></a>
                   <a href="#"><p>Hyperpure</p></a>
-                  <a href="#"><p>Zaikaland</p></a>
+                  <a href="#"><p>ApniRasoiland</p></a>
                 </nav>
               </div>
               <div className="foot3">
@@ -54,7 +54,7 @@ const Footer = () => {
                 <div className="foot3-2">
                   <h6>FOR ENTERPRISES</h6>
                   <nav>
-                    <a href="#"><p>Zaika For Enterprise</p></a>
+                    <a href="#"><p>ApniRasoi For Enterprise</p></a>
                   </nav>
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Footer = () => {
               </div>
             </div>
             <hr className="h-line" />
-            <p className="copyright">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy, and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zaika Ltd. All rights reserved.</p>
+            <p className="copyright">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy, and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © ApniRasoi Ltd. All rights reserved.</p>
           </div>
         </footer>
       </>

@@ -30,8 +30,8 @@ const Header = () => {
 
   const handleLocationDefault = () => {
     setLocation({
-      latitude: 12.9716,
-      longitude: 77.5946,
+      latitude: 25.4484,
+      longitude: 78.5685,
     });
     setNearMe(false);
   };
@@ -60,7 +60,7 @@ const Header = () => {
             <div
               onClick={() => {
                 handleLocationDefault();
-                toast.success("Switched to Default Location Bangalore");
+                toast.success("Switched to Default Location Jhansi");
               }}
             >
               <Link to={"/"}>

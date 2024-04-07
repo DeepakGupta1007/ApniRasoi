@@ -23,7 +23,7 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      `https://corsproxy.org/?https%3A%2F%2Fwww.swiggy.com%2Fdapi%2Frestaurants%2Flist%2Fv5%3Flat%3D${location.latitude}%26lng%3D${location.longitude}`
+      `https://thingproxy.freeboard.io/fetch/https://www.swiggy.com/dapi/restaurants/list/v5?lat=${location.latitude}&lng=${location.longitude}&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING`
     );
     // "https://instafood.onrender.com/api/restaurants?lat=19.0918606&lng=72.8825928"
     const json = await data.json();
